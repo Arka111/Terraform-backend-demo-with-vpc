@@ -2,7 +2,7 @@ provider "aws" {
   version                 = "~> 2.0"
   shared_credentials_file = "~/.aws/credentials"
   profile                 = "terraform"
-  region                  = "eu-west-1"
+  region                  = "eu-west-2"
 }
 
 /*# Backend must remain commented until the Bucket
