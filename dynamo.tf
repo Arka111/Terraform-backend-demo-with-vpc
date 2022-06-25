@@ -1,5 +1,5 @@
 resource "aws_dynamodb_table" "terraform-lock" {
-    name           = "terraform_state"
+    name           = "tf_estate"
     read_capacity  = 5
     write_capacity = 5
     hash_key       = "LockID"
@@ -8,6 +8,6 @@ resource "aws_dynamodb_table" "terraform-lock" {
         type = "S"
     }
     tags = {
-        "Name" = "DynamoDB Terraform State Lock Table"
+        "Name" = "DynamoDB Terraform State Lock Table to test"
     }
 }
