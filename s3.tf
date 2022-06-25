@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket" {
-    bucket = "angelo-terraform-state-backend"
+    bucket = "xxx123-tf-estate-back"
     versioning {
         enabled = true
     }
